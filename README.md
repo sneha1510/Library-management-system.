@@ -25,6 +25,6 @@ Test reports are generated after using commaond "mvn clean test site" and availa
 
 
  screenshots of the report
+ ![Screenshot 2024-09-26 181325](https://github.com/user-attachments/assets/dfcd29d0-b14c-454d-ad49-d3aa59ddddcc)
 ![Screenshot 2024-09-26 181348](https://github.com/user-attachments/assets/5bd3e776-4a52-4ada-a102-e1015a3d35e7)
-![Screenshot 2024-09-26 181325](https://github.com/user-attachments/assets/dfcd29d0-b14c-454d-ad49-d3aa59ddddcc)
 
