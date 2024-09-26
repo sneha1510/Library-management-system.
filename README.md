@@ -24,34 +24,7 @@ Test reports are generated after using commaond "mvn clean test site" and availa
 
 
 
-Library-management-system
-│
-├── pom.xml
-│
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   └── org
-│   │   │       └── test_package
-│   │   │           ├── Library.java        # Main class for library management
-│   │   │           └── Book.java           # Class representing a book
-│   │   │
-│   │   └── resources
-│   │       └── (any resource files, e.g., configuration files)
-│   │
-│   └── test
-│       ├── java
-│       │   └── org
-│       │       └── test_package
-│       │           └── LibraryTest.java    # Test class for Library
-│       │
-│       └── resources
-│           └── (any resource files for tests, if needed)
-│
-└── target
-    ├── classes                      # Compiled classes
-    ├── test-classes                 # Compiled test classes
-    ├── surefire-reports             # Test reports 
-    └── site                         # Generated site documentation including reports
-
+ screenshots of the report
+![Screenshot 2024-09-26 181348](https://github.com/user-attachments/assets/5bd3e776-4a52-4ada-a102-e1015a3d35e7)
+![Screenshot 2024-09-26 181325](https://github.com/user-attachments/assets/dfcd29d0-b14c-454d-ad49-d3aa59ddddcc)
 
