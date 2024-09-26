@@ -55,4 +55,20 @@ class Library {
             }
         }
     }
+    //helper methods for test cases
+    // In Library class
+    public List<Book> getBooks() {
+        return books;
+    }
+
+    public List<Book> getAvailableBooks() {
+        List<Book> availableBooks = new ArrayList<>();
+        for (Book book : books) {
+            if (book.isAvailable) {
+                availableBooks.add(book);
+            }
+        }
+        return availableBooks;
+    }
+
 }
