@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-class Library {
+public class Library {
     private List<Book> books;
 
     public Library() {

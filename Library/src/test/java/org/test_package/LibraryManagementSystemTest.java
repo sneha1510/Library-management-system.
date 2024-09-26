@@ -1,12 +1,8 @@
-package org.example;
+package org.test_package;
 
-/*import static org.junit.jupiter.api.Assertions.*;
 
-class LibraryManagementSystemTest
-{
 
-}*/
-
+import org.example.Library;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;

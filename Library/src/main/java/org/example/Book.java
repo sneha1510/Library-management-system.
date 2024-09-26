@@ -1,11 +1,11 @@
 package org.example;
 
-class Book {
+public class Book {
     String isbn;
-    String title;
+    public String title;
     String author;
     int publicationYear;
-    boolean isAvailable;
+    public boolean isAvailable;
 
     public Book(String isbn, String title, String author, int publicationYear) {
         this.isbn = isbn;
