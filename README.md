@@ -6,7 +6,8 @@ Objective
 Create a simple library management system that allows users to perform basic operations
 such as adding books, borrowing books, returning books, and viewing available books.
 ----------------------------------------------------------------------------
-Code is written using Java and Junit Testing framework
+Code is written using Java and Junit Testing framework 
+(Kindly note: Initially I had used testNg framework but later I removed it and used JUnit)
 
 To setup and configure- We have to add following artifacts(present at dependency only) at pom.xml
        **junit-jupiter-engine** 
