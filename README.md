@@ -23,3 +23,35 @@ Command used to generate test report
 Test reports are generated after using commaond "mvn clean test site" and available at target/surefile-reports
 
 
+
+Library-management-system
+│
+├── pom.xml
+│
+├── src
+│   ├── main
+│   │   ├── java
+│   │   │   └── org
+│   │   │       └── test_package
+│   │   │           ├── Library.java        # Main class for library management
+│   │   │           └── Book.java           # Class representing a book
+│   │   │
+│   │   └── resources
+│   │       └── (any resource files, e.g., configuration files)
+│   │
+│   └── test
+│       ├── java
+│       │   └── org
+│       │       └── test_package
+│       │           └── LibraryTest.java    # Test class for Library
+│       │
+│       └── resources
+│           └── (any resource files for tests, if needed)
+│
+└── target
+    ├── classes                      # Compiled classes
+    ├── test-classes                 # Compiled test classes
+    ├── surefire-reports             # Test reports 
+    └── site                         # Generated site documentation including reports
+
+
